@@ -1,0 +1,154 @@
+*{      
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+     z-index: 1000;
+     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+
+}
+
+body{
+
+    background-color: gray;
+}
+
+.logowebsite{
+    font-size: 30px;
+    font-weight: 700px;
+    color: white;
+}
+
+.navlist{
+    display: flex;
+
+}
+
+.navlist a{
+        color: white;
+        margin-left: 60px;
+        font-size: 15px;
+        font-weight: 600px;
+        border-bottom: 2px solid transparent;
+        transition: all .55s ease ;
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid white;
+
+}
+
+#menu-icon {
+        color:white;
+        font-size: 30px;
+        z-index: 1001 ;
+        cursor: pointer;
+        display: none;
+}
+
+.character{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.49deg, #45306c 0%, #42185e 28.53%, #534554 75.52% ) ;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+                                                  
+}
+
+section{
+    padding: 0 15%;
+}
+
+.character-text h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.character-text h1{ 
+                font-family: 'Permanent Marker', 'cursive' ;
+                font-size: 90px;
+                line-height: 1;
+                color: white;
+                margin: 0 0 45px;
+}
+
+.character-text h4{
+                font-size: 18px;
+                font-weight: 600;
+                color: white;
+                margin-bottom: 10px;
+
+
+}
+
+.character-text p{
+              color: white;
+              font-size: 15px;
+              line-height: 1.9; 
+              margin-bottom: 40px;
+              
+}
+
+.char-img{
+    width: 700px;
+    height: auto;
+}
+
+.character-text a{
+        display: inline-block;
+        color: white;
+        background: purple;
+        border: 1px solid transparent;
+        padding: 12px 30px  ;
+        line-height: 1.4 ;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 30px;
+        text-transform: uppercase;
+        transition: all .55s, ease ;
+
+
+}
+
+.character-text a:hover{
+                    background: transparent;
+                    border: 1px solid white;
+                    transform: translateX(8px) ;
+}
+
+
+@media (max-width: 1535px) {
+    header{padding: 15px 3px ;
+            transition: .2s;
+    }
+
+
+}
+
+
+@media (max-width: 1460px) {
+  
+  section{  padding: 0 12%;
+            transition:  .2s ;
+
+  }
+}
